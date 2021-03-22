@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Leiren</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="feminine">D\'</string>
+    <string name="masculine">Den</string>
+    <string name="vocabulary">Vocabulary</string>
+    <string name="numbers">Numbers</string>
+    <string name="plurals">Plurals</string>
+    <string name="gender">Gender</string>
+    <string name="validate">Validate</string>
+    <string name="placeholder_translate">Type Luxembourgish translation</string>
+    <string name="placeholder_plural">Type plural</string>
+    <string name="placeholder_conjugated">Type the conjugated verb</string>
+    <string name="verbs">Verbs</string>
+</resources>

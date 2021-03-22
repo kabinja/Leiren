@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="visible"
+    tools:context=".ui.main.home.HomeFragment"
+    tools:visibility="visible">
+
+    <Button
+        android:id="@+id/button_vocabulary"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="@string/vocabulary"
+        app:layout_constraintBottom_toTopOf="@id/button_plurals"
+        app:layout_constraintEnd_toStartOf="@id/button_gender"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:backgroundTint="@android:color/holo_blue_dark"/>
+
+    <Button
+        android:id="@+id/button_verbs"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="@string/verbs"
+        app:layout_constraintBottom_toTopOf="@id/button_gender"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_vocabulary"
+        app:layout_constraintTop_toTopOf="parent"
+        app:backgroundTint="@android:color/holo_red_light"/>
+
+    <Button
+        android:id="@+id/button_plurals"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:text="@string/plurals"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/button_gender"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button_vocabulary"
+        app:backgroundTint="@android:color/holo_orange_dark"/>
+
+    <Button
+        android:id="@+id/button_gender"
+        style="@style/Widget.AppCompat.Button.Colored"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="@string/gender"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/button_plurals"
+        app:layout_constraintTop_toBottomOf="@+id/button_verbs"
+        app:backgroundTint="@android:color/holo_green_light"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
